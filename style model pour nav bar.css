@@ -11,7 +11,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background: #333;
+  background: rgba(52, 152, 219, 0.1);
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -80,7 +80,7 @@ body {
   }
 
   /* Affiche le menu si checkbox cochée */
-  #menu-toggle:checked + .menu-icon + .menu {
+  #menu-toggle: checked + .menu-icon + .menu {
     display: flex;
   }
 }
